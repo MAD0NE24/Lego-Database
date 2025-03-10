@@ -4,6 +4,7 @@ from tkinter import messagebox
 from turtle import clear
 
 class Createtable:
+    #method to create new table
     def newtable(NewTableName):
         create = sqlite3.connect(NewTableName)
         create.close()
